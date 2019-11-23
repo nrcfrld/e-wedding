@@ -38,7 +38,11 @@ h1.text-style {
     display: block;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, #e9294f3a, #8b021d8a);
+    background: rgb(233, 41, 79);
+    background: -moz-linear-gradient(0deg, rgba(233, 41, 79, 0.2665441176470589) 35%, rgba(139, 2, 29, 0.54) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(233, 41, 79, 0.2665441176470589) 35%, rgba(139, 2, 29, 0.54) 100%);
+    background: linear-gradient(0deg, rgba(233, 41, 79, 0.2665441176470589) 35%, rgba(139, 2, 29, 0.54) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e9294f", endColorstr="#8b021d", GradientType=1);
     position: absolute;
     z-index: 1;
     top: 0;
